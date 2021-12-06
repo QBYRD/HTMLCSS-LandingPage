@@ -82,9 +82,64 @@ background-color: #faa541;
     height: auto;
 }
 .search-box{
-    height: 330px;
-    width: 30px;
+    size: 330px 30px;
     background-color: #a0a0a0;
 }
-
+.search-button {
+    background-color: #a0a0a0;
+    color: #ffffff;
+    size: 100px 30px;
+    border: 0;
+    padding: 0;
+}
+.nav-list{
+    padding: 0;
+    width: 575px;
+    margin-top: 10px;
+}
+.nav-list li a {
+    font: 16px uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.profile {
+    margin-left: auto;
+}
+.account {
+    padding: 15px;
+    color: #364147;
+    font-size: 18px;
+}
+.profile-pic {
+    size: 60px 60px;
+}
+.profile-pic img {
+    border-radius: 100px;
+    max-width: 100%;
+}
+.hero {
+    background-image: img\hero.jpg;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+.hero h1{
+    position: relative;
+    left: -30px;
+}
+.hero h2 {
+    color: #faa541;
+}
+.hero h1 h2 {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+.hero p {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0 0 10px 0;
+}
 /***************************************/
